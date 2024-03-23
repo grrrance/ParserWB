@@ -1,5 +1,3 @@
-import json
-import product
 from parser import ParserWB
 from flask import Flask, request, abort, jsonify
 from flask_restful import Api, Resource
@@ -61,4 +59,4 @@ api.add_resource(Main, "/products")
 api.init_app(app)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=1488, host="0.0.0.0")
+    app.run(debug=True, port=9000, host="0.0.0.0")

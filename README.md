@@ -1,4 +1,4 @@
-GET http://127.0.0.1:1488/products?query=аниме&count=3&min_price=500&max_price=1500&sort_price=true&sort_up=true
+GET http://localhost:9000/products?query=аниме&count=3&min_price=500&max_price=1500&sort_price=true&sort_up=true
 
 ```json
 {
